@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/monitor/index",
+    "pages/consulting/index",
+    "pages/my/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "知海宝",
+    "navigationBarBackgroundColor": "#0a74ff",
+    "backgroundColor": "#0a74ff"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/bottomNav/index.png",
+        "selectedIconPath": "static/bottomNav/index_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/monitor/index",
+        "iconPath": "static/bottomNav/monitor.png",
+        "selectedIconPath": "static/bottomNav/monitor_select.png",
+        "text": "监控"
+      },
+      {
+        "pagePath": "pages/consulting/index",
+        "iconPath": "static/bottomNav/consulting.png",
+        "selectedIconPath": "static/bottomNav/consulting_select.png",
+        "text": "咨询"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "static/bottomNav/my.png",
+        "selectedIconPath": "static/bottomNav/my_select.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

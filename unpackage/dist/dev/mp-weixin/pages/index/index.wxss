@@ -1,0 +1,49 @@
+
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.headerInfo {
+	height: 80rpx;
+	width: 100%;
+	line-height: 80rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	border-bottom: 1rpx solid #C0C0C0;
+}
+.changeStation {
+	float: left;
+	left: 0rpx;
+}
+.stationInfo {
+	float: right;
+	right: 0rpx;
+	margin-right: 0rpx;
+	text-align: right;
+}
+.userInfo {
+	float: right;
+	width: 200rpx;
+	right: 0rpx;
+	margin-right: 0rpx;
+	text-align: right;
+	background-color: red;
+}
+
+
